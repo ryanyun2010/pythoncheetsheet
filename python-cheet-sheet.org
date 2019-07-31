@@ -1,0 +1,48 @@
+#+TITLE: Python Cheet Sheet
+* Varibles
+** Booleans
+   #+BEGIN_SRC python :tangle yes
+   T=True
+   F=False
+   #+END_SRC
+
+** Integers
+   #+BEGIN_SRC python :tangle yes
+   x=10
+   #+END_SRC
+
+** Lists
+#+BEGIN_SRC python :tangle yes
+animals=["Panda","Koala","Blue Whale","Kiwi Bird"]
+#+END_SRC
+
+** Dictonary
+   #+BEGIN_SRC python :tangle yes
+   pandas={
+    'pandas_in_the_world':2400 ,
+    'colors': ['black','white'] ,
+    'avg_age': 25
+    }
+   #+END_SRC
+
+* Loops
+  #+BEGIN_SRC python :tangle yes
+    for i in animals:
+	print("I have a",i)
+  #+END_SRC
+
+* Ifs
+  #+BEGIN_SRC python
+    if 1 == 1:
+	print("1 = 1")
+#+END_SRC
+* Functions
+  #+BEGIN_SRC python :tangle yes
+  def panda(type):
+    print("I have a " + type + " panda")
+  panda("red")
+  panda("giant")
+  panda("baby giant")
+
+  #+END_SRC
+
